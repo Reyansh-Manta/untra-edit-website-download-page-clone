@@ -1,0 +1,667 @@
+@media only screen and (min-width:1220px) {
+    .container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-top: 17px;
+        height: 15.7vh;
+        width: 90.5vw;
+        left: 4.7vw;
+        flex-wrap: wrap;
+        margin: 0px;
+        box-sizing: border-box;
+        gap: 3vw;
+    }
+    .I{
+        text-align: center;
+        width: 66vw;
+        padding-left: 0px;
+        margin-left: 18vw;
+        padding-top: 0px;
+        margin-top: 100px;
+
+        
+    }
+    .du{
+        display: inline-flex;
+        width: 69vw;
+        margin-left: 16.5vw;
+        padding-left: 0px;
+        margin-top: 76px;
+        padding-top: 0px;
+        padding-bottom: 3px;
+        margin-bottom: 0px;
+
+    }
+    .h6{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .h2{
+        padding-top: 5px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    .h1{
+        
+        display: inline;
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    .U{
+        font-weight: bolder;
+
+    }
+    .h3{
+        margin-top: 55px;
+        padding-top: 0px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+.dml{
+    color: white;
+    background-color: rgb(72, 189, 228);
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 10px;
+    width: 292px;
+    text-align: center;
+    margin-top: 38px;
+    margin-left: 21.5vw;
+}
+    .con {
+        display: grid;
+        position: relative;
+        border: none rgba(22, 21, 21, 0.144);
+        top: 0px;
+        grid-template-rows: [r1] 250px [r2] 250px [r3] 250px;
+        grid-template-columns: [c1] 350px [c2] 350px [c3] 350px;
+        gap: 25px;
+        justify-content: center;
+        justify-self: center;
+        align-self: start;
+        word-wrap: break-word;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .b {
+        width: 300px;
+        height: 200px;
+        font: bolder;
+        background-color: rgba(128, 128, 128, 0.089);
+        margin: 25px;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        padding-top: 23px;
+        border-radius: 25px;
+
+    }
+.c{
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.d{
+    font-size: small;
+    font-weight: 100;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: green;
+    border-radius: 8px;
+    margin: 32px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+.e{
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 22px;
+    padding-bottom: 15px;
+
+}
+.f{
+    font-size: 0.5vmax;
+    padding: 8px;
+    font-weight: lighter;
+    
+}
+a{
+    text-decoration: none;
+}
+    .lines {
+        opacity: 0;
+    }
+
+    .box {
+
+        position: relative;
+
+    }
+
+    .ban {
+        left: 20.5vw;
+    }
+
+    .box1 {
+        order: 2;
+    }
+
+    .box2 {
+        order: 3;
+    }
+
+    .box3 {
+        order: 4;
+    }
+
+    .box4 {
+        order: 5;
+
+    }
+
+    .box5 {
+        order: 6;
+
+    }
+
+    .box6 {
+        order: 7;
+    }
+
+    .box7 {
+        order: 8;
+    }
+
+    .box8 {
+        position: relative;
+        order: 1;
+        left: 2vw;
+        padding: 4px;
+
+    }
+}
+
+@media only screen and (min-width:930px) and (max-width:1220px) {
+    .ban {
+        opacity: 0;
+        display: none;
+    }
+
+    .lines {
+        order: 2;
+        align-self: center;
+        justify-self: end;
+        padding-bottom: 16px;
+    }
+
+    .box8 {
+        order: 1;
+        padding-right: 60vw;
+        /* width: 175px; */
+        width: 20vw;
+        left: 2vw;
+        padding-left: 5vw;
+        padding-top: 25px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-top: 25px;
+        height: 15.7vh;
+        width: 90.5vw;
+        left: 4.7vw;
+    }
+    .con {
+        display: grid;
+        position: relative;
+        border: none rgba(22, 21, 21, 0.144);
+        top: 80px;
+        grid-template-rows: [r1] 250px [r2] 250px [r3] 250px [r4] 250px [r5] 250px;
+        grid-template-columns: [c1] 350px [c2] 350px ;
+        gap: 25px;
+        justify-content: center;
+        justify-self: center;
+        align-self: start;
+        word-wrap: break-word;
+    }
+
+    .b {
+        width: 300px;
+        height: 200px;
+        font: bolder;
+        background-color: rgba(128, 128, 128, 0.089);
+        margin: 25px;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        padding-top: 23px;
+        border-radius: 25px;
+
+    }
+.c{
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.d{
+    font-size: small;
+    font-weight: 100;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: green;
+    border-radius: 8px;
+    margin: 32px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+.e{
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 22px;
+    padding-bottom: 15px;
+
+}
+.f{
+    font-size: 0.5vmax;
+    padding: 8px;
+    font-weight: lighter;
+    
+}
+a{
+    text-decoration: none;
+}
+.I{
+    text-align: center;
+    width: 66vw;
+    padding-left: 0px;
+    margin-left: 18vw;
+    padding-top: 0px;
+    margin-top: 100px;
+
+    
+}
+.du{
+    display: inline-flex;
+    width: 69vw;
+    margin-left: 16.5vw;
+    padding-left: 0px;
+    margin-top: 76px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+
+}
+.h6{
+    font-size: 15px;
+    font-weight: normal;
+}
+.h2{
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.h1{
+    
+    display: inline;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.U{
+    font-weight: bolder;
+
+}
+.h3{
+    margin-top: 55px;
+    padding-top: 0px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.dml{
+color: white;
+background-color: rgb(72, 189, 228);
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 16px;
+padding-top: 16px;
+border-radius: 10px;
+width: 292px;
+text-align: center;
+margin-top: 38px;
+margin-left: 19vw;
+}
+}
+@media only screen and (min-width:550px) and (max-width:930px){
+    .ban {
+        opacity: 0;
+        display: none;
+    }
+
+    .lines {
+        order: 2;
+        align-self: center;
+        justify-self: end;
+        padding-bottom: 16px;
+    }
+
+    .box8 {
+        order: 1;
+        padding-right: 60vw;
+        /* width: 175px; */
+        width: 20vw;
+        left: 2vw;
+        padding-left: 5vw;
+        padding-top: 25px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-top: 25px;
+        height: 15.7vh;
+        width: 90.5vw;
+        left: 4.7vw;
+    }
+    .con {
+        display: grid;
+        position: relative;
+        border: none rgba(22, 21, 21, 0.144);
+        top: 80px;
+        grid-template-rows: [r1] 250px [r2] 250px [r3] 250px [r4] 250px [r5] 250px [r6] 250px [r7] 250px [r8] 250px [r9] 250px [r10] 250px;
+        grid-template-columns: [c1] 350px ;
+        gap: 25px;
+        justify-content: center;
+        justify-self: center;
+        align-self: start;
+        word-wrap: break-word;
+    }
+
+    .b {
+        width: 300px;
+        height: 200px;
+        font: bolder;
+        background-color: rgba(128, 128, 128, 0.089);
+        margin: 25px;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        padding-top: 23px;
+        border-radius: 25px;
+
+    }
+.c{
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.d{
+    font-size: small;
+    font-weight: 100;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: green;
+    border-radius: 8px;
+    margin: 32px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+.e{
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 22px;
+    padding-bottom: 15px;
+
+}
+.f{
+    font-size: 0.5vmax;
+    padding: 8px;
+    font-weight: lighter;
+    
+}
+a{
+    text-decoration: none;
+}
+.I{
+    text-align: center;
+    width: 66vw;
+    padding-left: 0px;
+    margin-left: 18vw;
+    padding-top: 0px;
+    margin-top: 100px;
+
+    
+}
+.du{
+    display: inline-flex;
+    width: 69vw;
+    margin-left: 16.5vw;
+    padding-left: 0px;
+    margin-top: 76px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+
+}
+.h6{
+    font-size: 15px;
+    font-weight: normal;
+}
+.h2{
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+.h1{
+    
+    display: inline;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.U{
+    font-weight: bolder;
+
+}
+.h3{
+    margin-top: 55px;
+    padding-top: 0px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.dml{
+color: white;
+background-color: rgb(72, 189, 228);
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 16px;
+padding-top: 16px;
+border-radius: 10px;
+width: 292px;
+text-align: center;
+margin-top: 38px;
+margin-left: 10vw;
+}
+}
+@media only screen and (max-width:550px){
+    .ban {
+        opacity: 0;
+        display: none;
+    }
+
+    .lines {
+        order: 2;
+        align-self: center;
+        justify-self: end;
+        padding-bottom: 16px;
+    }
+
+    .box8 {
+        order: 1;
+        padding-right: 60vw;
+        /* width: 175px; */
+        width: 20vw;
+        left: 2vw;
+        padding-left: 5vw;
+        padding-top: 25px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        padding-top: 25px;
+        height: 15.7vh;
+        width: 90.5vw;
+        left: 4.7vw;
+    }
+    .con {
+        display: grid;
+        position: relative;
+        border: none rgba(22, 21, 21, 0.144);
+        top: 80px;
+        grid-template-rows: [r1] 250px [r2] 250px [r3] 250px [r4] 250px [r5] 250px [r6] 250px [r7] 250px [r8] 250px [r9] 250px [r10] 250px;
+        grid-template-columns: [c1] 350px ;
+        gap: 25px;
+        justify-content: center;
+        justify-self: center;
+        align-self: start;
+        word-wrap: break-word;
+    }
+
+    .b {
+        width: 300px;
+        height: 200px;
+        font: bolder;
+        background-color: rgba(128, 128, 128, 0.089);
+        margin: 25px;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        padding-top: 23px;
+        border-radius: 25px;
+
+    }
+.c{
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.d{
+    font-size: small;
+    font-weight: 100;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: solid rgba(255, 255, 255, 0);
+    background-color: green;
+    border-radius: 8px;
+    margin: 32px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+.e{
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 22px;
+    padding-bottom: 15px;
+
+}
+.f{
+    font-size: 0.5vmax;
+    padding: 8px;
+    font-weight: lighter;
+    
+}
+a{
+    text-decoration: none;
+}
+.I{
+    text-align: center;
+    width: 66vw;
+    padding-left: 0px;
+    margin-left: 18vw;
+    padding-top: 0px;
+    margin-top: 100px;
+
+    
+}
+.du{
+    display: inline-flex;
+    width: 69vw;
+    margin-left: 16.5vw;
+    padding-left: 0px;
+    margin-top: 76px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+
+}
+.h6{
+    font-size: 15px;
+    font-weight: normal;
+}
+.h2{
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: lighter;
+    
+}
+.h1{
+    
+    display: inline;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.U{
+    font-weight: bolder;
+
+}
+.h3{
+    margin-top: 55px;
+    padding-top: 0px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.dml{
+color: white;
+background-color: rgb(72, 189, 228);
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 16px;
+padding-top: 16px;
+border-radius: 10px;
+width: 292px;
+text-align: center;
+margin-top: 38px;
+margin-left: 1vw;
+}
+}
+    
